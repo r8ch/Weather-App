@@ -86,3 +86,7 @@ button:hover {
   position: relative;
   top: -44px;
 }
+footer {
+  margin: 10px;
+  font-size: 12px;
+}
