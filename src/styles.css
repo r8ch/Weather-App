@@ -1,0 +1,88 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+main {
+  background: #feffde;
+  border: outset;
+  padding: 10px;
+}
+h1 {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+h5 {
+  text-align: left;
+}
+section {
+  background: #feffde;
+  margin-top: 20px;
+  border: outset;
+  padding: 15px 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h5 {
+  margin: 20px 20px 0px 0px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  position: relative;
+  top: -30px;
+  right: -148px;
+  border: 1px outset rgb(118, 118, 118);
+  border-radius: 3px;
+  padding: 2px;
+}
+button:hover {
+  background: rgba(0, 0, 0, 0.075);
+}
+.card {
+  background-color: transparent;
+  border: none;
+  max-width: fit-content;
+  margin: auto;
+}
+
+.current-forecast {
+  text-align: left;
+}
+.current-temp {
+  font-size: 80px;
+  height: 100px;
+}
+.current-description {
+  font-size: 15px;
+  letter-spacing: 4px;
+  position: relative;
+  right: -9px;
+}
+.current-emoji {
+  font-size: 115px;
+  text-align: right;
+  padding: 0;
+  height: 150px;
+}
+.other-stats {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.list-group-item {
+  border: none;
+  background: none;
+}
+.hourly:hover {
+  background: rgba(0, 0, 0, 0.075);
+}
+#celsius,
+#farenheit {
+  font-size: 12px;
+  position: relative;
+  top: -44px;
+}
